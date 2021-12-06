@@ -4,6 +4,8 @@ there is wrong in :
 2/ export > controller  >> "solved" exports updatetodo
 3/ X .env DB_URL X > SOLVED .connect(process.env.DB_URI, options)
 4/ require in todo > mongose > mongoose 
-5/
+Route.put() requires a callback function but got a [object Undefined]
+export updateTodo
+5/("./../../db/models/todos"); >> ("./../../db/models/todo");
 6/
 7/
