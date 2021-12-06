@@ -7,5 +7,15 @@ there is wrong in :
 Route.put() requires a callback function but got a [object Undefined]
 export updateTodo
 5/("./../../db/models/todos"); >> ("./../../db/models/todo");
-6/
-7/
+6/Cannot read properties of undefined (reading 'todo')
+app.use(express.json())>> app.use(todoRouter);
+7/listen EADDRINUSE>>:
+change the port in .env PORT=4000 without ;
+8/updateTodo >> its params so change endpoint
+todoRouter.put("/todo/:id", updateTodo)
+9/
+10/
+11/
+12/
+13/
+14/
