@@ -1,0 +1,9 @@
+there is wrong in :
+
+1/ export schema (models)>>  "solved"module.exports = mongoose.module("Todo", todoSchema);
+2/ export > controller  >> "solved" exports updatetodo
+3/ X .env DB_URL X > SOLVED .connect(process.env.DB_URI, options)
+4/ require in todo > mongose > mongoose 
+5/
+6/
+7/
